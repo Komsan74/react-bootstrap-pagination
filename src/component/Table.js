@@ -2,7 +2,7 @@ import { Table } from "react-bootstrap";
 
 export default function Tables(props) {
   const displayList = props.data;
-  console.log({ displayList });
+  // console.log({ displayList });
 
   return (
     <>
