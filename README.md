@@ -4,7 +4,7 @@
 
 <img src="https://github.com/Komsan74/react-bootstrap-pagination/blob/main/assets/react-bootstrap-pagination.PNG" width="600px"/>
 
-# [DataList.js]()
+# [DataList.js](https://github.com/Komsan74/react-bootstrap-pagination/blob/main/src/controller/DataList.js)
 
 สร้างฟังก์ชั่น dataList ใช้กำหนดรูปแบบการแสดงข้อมูลในแต่ละหน้า ว่าจะให้แสดงผลในแต่ละหน้าได้กี่แถวข้อมูล ในบทฝึกหัดนี้ใช้ตัวอย่างเป็นตารางข้อมูล ที่ดึงข้อมูลจำลองมาจาก https://fakestoreapi.com เช่นเคย รูปแบบการใช้งานฟังก์ชั่นเป็นดังนี้
 
@@ -17,7 +17,7 @@ dataList(data, rowsPerPage, pageNumber);
 - pageList = อาร์เรย์รายการข้อมูลที่จะให้แสดงในแต่ละหน้า
 - items = อาร์เรย์ระบุหมายเลขหน้าที่จะส่งไปให้ Pagination
 
-# [Table.js]()
+# [Table.js](https://github.com/Komsan74/react-bootstrap-pagination/blob/main/src/component/Table.js)
 
 กำหนดแม่แบบตาราง โดยศึกษารูปแบบจาก [react-bootstrap](https://react-bootstrap.github.io/components/table/)
 แล้วให้รีเทิร์นค่าออกมาตาม props ที่เรากำหนด
@@ -29,7 +29,7 @@ dataList(data, rowsPerPage, pageNumber);
 <Table data={data} header={["column1", "column2", "...columN"]} />
 ```
 
-# [App.js]()
+# [App.js](https://github.com/Komsan74/react-bootstrap-pagination/blob/main/src/App.js)
 
 - กำหนด {data} ด้วยการดึงข้อมูลจำลองมาจาก https://fakestoreapi.com
 
@@ -41,4 +41,4 @@ fetch("https://fakestoreapi.com/products")
   .then((json) => console.log(json));
 ```
 
-## [See in CodeSandbox]()
+## [See in CodeSandbox](https://codesandbox.io/s/github/Komsan74/react-bootstrap-pagination)
