@@ -14,8 +14,7 @@ export default function App() {
   }, []);
 
   // pagination initialize...
-  const [currentPage, setCurrentPage] = useState(1);
-  console.log({ currentPage });
+  const [currentPage, setCurrentPage] = useState(1); 
 
   // ฟังชั่น dataList(data, rowsPerPage, pageNumber) => return { pageList, items }
   const pageData = dataList(data, 7, currentPage);
