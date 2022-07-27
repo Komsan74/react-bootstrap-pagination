@@ -2,7 +2,7 @@
 
 บทฝึกหัดนี้เป็นแนวทางในการใช้งาน Pagination ใน react-bootstrap เฟรมเวิร์ค ที่สามารถนำไปประยุกต์ใช้งานได้ตามวัตถุประสงค์ สามารถศึกษาเพิ่มเติมได้จาก [react-bootstrap-pagination](https://react-bootstrap.netlify.app/components/pagination/)
 
-<img src="" width="600px"/>
+<img src="https://github.com/Komsan74/react-bootstrap-pagination/blob/main/assets/react-bootstrap-pagination.PNG" width="600px"/>
 
 # [DataList.js]()
 
