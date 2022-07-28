@@ -58,4 +58,4 @@ fetch("https://fakestoreapi.com/products")
 </Container>
 ```
 
-## [See in CodeSandbox](https://codesandbox.io/s/github/Komsan74/react-bootstrap-pagination)
+## [See Demo in CodeSandbox](https://codesandbox.io/s/github/Komsan74/react-bootstrap-pagination)
