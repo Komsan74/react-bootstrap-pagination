@@ -40,5 +40,23 @@ fetch("https://fakestoreapi.com/products")
   .then((res) => res.json())
   .then((json) => console.log(json));
 ```
+- กำหนด Pagination ไว้ในลำดับสุดท้ายของหน้า ในตัวอย่างได้เพิ่ม `Prev` กับ `Next` button เพื่อใช้ในการเลื่อนหน้า พร้อมเขียนฟังก์ชั่นควบคุม รูปแบบในการวาง Pagination ก็จะเป็นดังนี้
+```jsx
+<Container>
+  ...
+  <Pagination>
+    <Pagination.Prev onClick={_function()} />    
+      <Pagination.Item
+        active={page_number}
+        onClick={_function()}>
+      </Pagination.Item>
+      <Pagination.Item>
+        ...
+      </Pagination.Item>
+      ...
+    <Pagination.Next onClick={nextClick} />
+  </Pagination>
+</Container>
+```
 
 ## [See in CodeSandbox](https://codesandbox.io/s/github/Komsan74/react-bootstrap-pagination)
