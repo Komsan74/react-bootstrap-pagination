@@ -48,10 +48,10 @@ fetch("https://fakestoreapi.com/products")
   ...
   <Pagination>
     <Pagination.Prev onClick={_function()} />
-    <Pagination.Item
-      active={page_number}
-      onClick={_function()}></Pagination.Item>
-    <Pagination.Item>...</Pagination.Item>
+    <Pagination.Item active={page_number} onClick={_function()}>
+      {page_number}
+    </Pagination.Item>
+    <Pagination.Item>{page_number}</Pagination.Item>
     ...
     <Pagination.Next onClick={_function()} />
   </Pagination>
