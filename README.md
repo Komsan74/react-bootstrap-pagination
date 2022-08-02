@@ -57,5 +57,6 @@ fetch("https://fakestoreapi.com/products")
   </Pagination>
 </Container>
 ```
-
-## [See Demo in CodeSandbox](https://codesandbox.io/s/github/Komsan74/react-bootstrap-pagination)
+## อ้างอิง
+- [React-Bootstrap](https://react-bootstrap.netlify.app/components/pagination/)
+- [See Demo in CodeSandbox](https://codesandbox.io/s/github/Komsan74/react-bootstrap-pagination)
